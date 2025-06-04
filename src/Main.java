@@ -23,7 +23,7 @@ public class Main {
         potatoSoup.printIngredients();
 
         System.out.println("\nСуп с картошкой можно приготовить и из суповой основы:");
-        PotatoSoup potatoSoupFromBase = new PotatoSoup(soupBase, 200, 3, 0);
+        PotatoSoup potatoSoupFromBase = new PotatoSoup(bouillon, 200, 3, 0);
         potatoSoupFromBase.printIngredients();
 
         System.out.println("\nА можно и совсем с нуля:");
