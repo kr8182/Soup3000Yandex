@@ -3,12 +3,12 @@ public class SoupBase {
     double salt;
 
     SoupBase(double water, double salt){
-
         this.water = water;
         this.salt = salt;
-
-
     }// реализуйте конструктор
+
+    public SoupBase() {
+    }
 
     public void printIngredients() {
         System.out.println("Ингредиенты суповой основы:");
