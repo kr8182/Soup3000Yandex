@@ -16,7 +16,6 @@ public class PotatoSoup extends Bouillon {
 
     PotatoSoup(double water, double salt, double meat, double potato, double carrot) {
         super(water, salt, meat);
-        super.water = water;
         this.potato = potato;
         this.carrot = carrot;
     }
